@@ -274,19 +274,19 @@ class NotNullComparator:
 if __name__ == "__main__":
     # CONFIGURAÇÃO DAS CONEXÕES
     DB1_CONFIG = {
-        "host": "172.16.4.40",
-        "database": "sei",
-        "user": "postgres",
-        "password": "postgres",
-        "port": 5432
+        "host": "",
+        "database": "",
+        "user": "",
+        "password": "",
+        "port": 
     }
     
     DB2_CONFIG = {
-        "host": "172.16.4.40",
-        "database": "sei5",
-        "user": "postgres",
-        "password": "postgres",
-        "port": 5432
+        "host": "",
+        "database": "",
+        "user": "",
+        "password": "",
+        "port": 
     }
     
     try:
@@ -298,4 +298,5 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"❌ Erro: {e}")
         import traceback
+
         traceback.print_exc()
